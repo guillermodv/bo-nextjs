@@ -2,9 +2,13 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import UserTable from "./UserTable";
 import users from "./services/users";
+import UserAvatar from "./components/UserAvatar";
 
 const Home = () => (
   <main className={styles.main}>
+    <div className={styles.userDiv}>
+      <UserAvatar />
+    </div>
     <div className={styles.center}>
       <Image
         className={styles.logo}
