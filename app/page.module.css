@@ -5,14 +5,26 @@
   padding: 2px;
 }
 
-.userDiv {
+.buttonRight {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  align-items: center;
+  margin-top: 20px;
+}
+
+.rightPosition {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.leftPosition {
+  display: flex;
   width: 100%;
-  border-color: red;
-  border-width: 3px solid;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 20px;
 }
 
 .description {
